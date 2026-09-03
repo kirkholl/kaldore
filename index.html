@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaldore — Chemicals and industrial products, supplied from Jacksonville</title>
+<meta name="description" content="Kaldore supplies industrial chemicals, polyurethane additives, solvents, coatings raw materials, water treatment chemicals and industrial products from Jacksonville, Florida. Stocked, documented, delivered.">
+<meta property="og:title" content="Kaldore — Chemicals and industrial products">
+<meta property="og:description" content="Industrial chemicals and products supplied from Jacksonville, FL. Stocked locally, sourced globally.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kaldore.com/">
+<meta name="theme-color" content="#13293D">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%2313293D'/%3E%3Cpath d='M9 7h4v8l7-8h5l-8 9 8 9h-5l-7-8v8H9z' fill='%23F1F3F5'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F1F3F5; --bg-2: #E6EAEE; --ink: #13293D; --ink-2: #4A5B6B;
+    --line: #C9D1D8; --cobalt: #1F4FD6; --cobalt-ink: #163BA3; --white: #FFFFFF;
+    --w: 1200px; --gutter: clamp(20px, 4vw, 48px);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Archivo", system-ui, -apple-system, sans-serif; font-size: 17px; line-height: 1.55; }
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--cobalt); outline-offset: 3px; }
+  h1, h2, h3 { margin: 0; font-weight: 600; letter-spacing: -0.01em; line-height: 1.1; }
+  h2 { font-size: clamp(30px, 3.6vw, 44px); font-variation-settings: "wdth" 112; }
+  h3 { font-size: 20px; line-height: 1.25; }
+  p { margin: 0; }
+  .wrap { width: min(var(--w), 100% - var(--gutter) * 2); margin-inline: auto; }
+  .measure { max-width: 58ch; }
+  section { padding: clamp(64px, 9vw, 120px) 0; }
+  .ink { background: var(--ink); color: var(--bg); }
+  .ink .muted { color: #A9B7C4; }
+  .muted { color: var(--ink-2); }
+
+  /* Image placeholders — replace with <img> of the same aspect ratio */
+  .ph {
+    position: relative; overflow: hidden; border-radius: 6px;
+    background:
+      linear-gradient(135deg, rgba(19,41,61,.06) 25%, transparent 25%, transparent 50%, rgba(19,41,61,.06) 50%, rgba(19,41,61,.06) 75%, transparent 75%),
+      #DDE3E8;
+    background-size: 28px 28px, auto;
+    border: 1px solid var(--line);
+    aspect-ratio: 4 / 3;
+  }
+  .ph.wide { aspect-ratio: 16 / 9; }
+  .ph.tall { aspect-ratio: 3 / 4; }
+  .ph.square { aspect-ratio: 1 / 1; }
+  .ph::before {
+    content: ""; position: absolute; inset: 12px; border: 1px dashed rgba(19,41,61,.3); border-radius: 4px;
+  }
+  .ph span {
+    position: absolute; left: 20px; bottom: 18px; right: 20px;
+    font-size: 13px; color: var(--ink-2); line-height: 1.4;
+  }
+  .ph span b { display: block; color: var(--ink); font-weight: 600; margin-bottom: 2px; }
+  /* Drop an <img> inside a .ph and it fills the slot; the placeholder chrome hides itself. */
+  .ph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ph:has(img) { background: none; }
+  .ph:has(img)::before, .ph:has(img) span { display: none; }
+  .ink .ph { background-color: #1E3550; border-color: #2E4863; }
+  .ink .ph::before { border-color: rgba(241,243,245,.3); }
+  .ink .ph span { color: #A9B7C4; }
+  .ink .ph span b { color: var(--bg); }
+
+  /* Header */
+  header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+  .nav { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 24px; }
+  .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 700; font-size: 20px; letter-spacing: 0.02em; font-variation-settings: "wdth" 118; }
+  .brand svg { width: 28px; height: 28px; }
+  .nav ul { display: flex; gap: 28px; list-style: none; margin: 0; padding: 0; }
+  .nav ul a { text-decoration: none; font-size: 15px; color: var(--ink-2); }
+  .nav ul a:hover { color: var(--ink); }
+  .btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: 4px; border: 1px solid transparent; font: inherit; font-size: 15px; font-weight: 600; text-decoration: none; cursor: pointer; transition: background-color .15s ease, border-color .15s ease; }
+  .btn-cobalt { background: var(--cobalt); color: var(--white); }
+  .btn-cobalt:hover { background: var(--cobalt-ink); }
+  .btn-outline { border-color: var(--ink); color: var(--ink); background: transparent; }
+  .btn-outline:hover { background: var(--ink); color: var(--bg); }
+  .ink .btn-outline { border-color: var(--bg); color: var(--bg); }
+  .ink .btn-outline:hover { background: var(--bg); color: var(--ink); }
+  .nav .btn { padding: 9px 16px; }
+
+  /* Hero */
+  .hero { padding: clamp(48px, 7vw, 96px) 0 0; }
+  .hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: end; }
+  .hero h1 { font-size: clamp(40px, 5.4vw, 70px); font-weight: 650; letter-spacing: -0.025em; font-variation-settings: "wdth" 116; line-height: 1.0; max-width: 15ch; }
+  .hero .lede { margin-top: 28px; font-size: clamp(18px, 1.5vw, 21px); max-width: 46ch; color: var(--ink-2); }
+  .hero .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
+  .hero .ph { aspect-ratio: 5 / 4; }
+  .hero-band { margin-top: clamp(40px, 5vw, 72px); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: var(--white); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .stats div { padding: 26px 24px; border-left: 1px solid var(--line); }
+  .stats div:first-child { border-left: 0; padding-left: 0; }
+  .stats b { display: block; font-size: 30px; font-weight: 650; letter-spacing: -0.02em; font-variation-settings: "wdth" 112; line-height: 1; }
+  .stats span { display: block; margin-top: 8px; font-size: 14.5px; color: var(--ink-2); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero h1, .hero .lede, .hero .actions, .hero .ph { opacity: 0; transform: translateY(12px); animation: rise .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .hero .lede { animation-delay: .08s; } .hero .actions { animation-delay: .16s; } .hero .ph { animation-delay: .2s; }
+    @keyframes rise { to { opacity: 1; transform: none; } }
+  }
+
+  /* Capabilities */
+  .caps .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(24px, 3vw, 40px); margin-top: 48px; }
+  .caps .grid h3 { margin-top: 18px; }
+  .caps .grid p { margin-top: 10px; font-size: 15.5px; }
+
+  /* Products */
+  .products { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .products .intro { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; margin-bottom: 48px; }
+  .plist { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(24px, 3vw, 36px); }
+  .plist article h3 { margin-top: 18px; font-size: 21px; }
+  .plist article p { margin-top: 10px; font-size: 15px; color: var(--ink-2); }
+  .plist .ex { margin-top: 14px; font-size: 14px; line-height: 1.6; }
+  .plist .ex span { display: inline-block; background: var(--bg); padding: 2px 8px; border-radius: 3px; margin: 0 6px 6px 0; }
+  .products .more { margin-top: 44px; padding-top: 28px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 24px; flex-wrap: wrap; }
+
+  /* Industries */
+  .industries .row { display: grid; grid-template-columns: 1fr 2fr; gap: clamp(32px, 5vw, 80px); align-items: start; }
+  .ilist { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; margin: 0; padding: 0; list-style: none; }
+  .ilist li { padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 16.5px; }
+  .ilist li small { display: block; color: var(--ink-2); font-size: 14.5px; margin-top: 2px; }
+
+  /* Facility */
+  .facility .row { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: center; }
+  .facility .pics { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .facility .pics .ph:first-child { grid-column: 1 / -1; }
+  .facility ul { margin: 24px 0 0; padding: 0; list-style: none; display: grid; gap: 10px; font-size: 15.5px; }
+  .facility li { padding-left: 18px; position: relative; }
+  .facility li::before { content: ""; position: absolute; left: 0; top: .62em; width: 8px; height: 2px; background: currentColor; opacity: .55; }
+
+  /* About */
+  .about .grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: start; }
+  .about p + p { margin-top: 16px; }
+  .facts { display: grid; margin: 0; border-top: 1px solid var(--line); }
+  .facts div { display: grid; grid-template-columns: 160px 1fr; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 15.5px; }
+  .facts dt { color: var(--ink-2); margin: 0; }
+  .facts dd { margin: 0; font-weight: 500; }
+
+  /* Contact */
+  .contact { background: var(--white); border-top: 1px solid var(--line); }
+  .contact .grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 80px); align-items: start; }
+  .mail { display: inline-block; margin-top: 24px; font-size: clamp(26px, 3.4vw, 42px); font-weight: 600; letter-spacing: -0.02em; font-variation-settings: "wdth" 110; text-decoration: none; border-bottom: 3px solid var(--cobalt); padding-bottom: 2px; word-break: break-all; }
+  .mail:hover { color: var(--cobalt); }
+  .contact .ask { padding: 22px 24px; background: var(--bg); border-radius: 6px; font-size: 15px; }
+  .contact .ask ul { margin: 10px 0 0; padding-left: 18px; }
+  .contact .ask li + li { margin-top: 4px; }
+  .contact .addr { margin-top: 28px; font-size: 15.5px; color: var(--ink-2); line-height: 1.6; }
+
+  footer { padding: 28px 0 36px; font-size: 14px; color: var(--ink-2); }
+  footer .row { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+  footer a { text-decoration: none; } footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 940px) {
+    .hero-grid, .products .intro, .industries .row, .facility .row, .about .grid, .contact .grid { grid-template-columns: 1fr; }
+    .hero-grid { align-items: start; }
+    .plist, .caps .grid { grid-template-columns: 1fr 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .stats div:nth-child(3) { border-left: 0; padding-left: 0; }
+    .stats div:nth-child(n+3) { border-top: 1px solid var(--line); }
+    .nav ul { display: none; }
+  }
+  @media (max-width: 600px) {
+    body { font-size: 16px; }
+    .plist, .caps .grid, .ilist { grid-template-columns: 1fr; }
+    .facts div { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Kaldore home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="4" fill="#13293D"/><path d="M9 7h4v8l7-8h5l-8 9 8 9h-5l-7-8v8H9z" fill="#F1F3F5"/></svg>
+      Kaldore
+    </a>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#facility">Supply chain</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-cobalt" href="mailto:info@kaldore.com?subject=Quote%20request">Request a quote</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Chemicals and industrial products, supplied from Jacksonville.</h1>
+        <p class="lede">Kaldore stocks and distributes industrial chemicals, polyurethane additives, solvents, resins and process consumables for manufacturers across the Southeast and beyond. Sourced from audited producers worldwide, held locally, delivered on schedule.</p>
+        <div class="actions">
+          <a class="btn btn-cobalt" href="mailto:info@kaldore.com?subject=Quote%20request">Request a quote</a>
+          <a class="btn btn-outline" href="#products">See the product range</a>
+        </div>
+      </div>
+<div class="ph"><img src="assets/img/hero-warehouse.webp" alt="Racked drums and IBCs, wide shot" width="1600" height="1280" decoding="async"></div>
+    </div>
+    <div class="hero-band">
+      <div class="wrap stats">
+        <div><b>600+</b><span>Products stocked or on call-off</span></div>
+        <div><b>40+</b><span>Producers we source from directly</span></div>
+        <div><b>48 hrs</b><span>Typical delivery across Florida and Georgia</span></div>
+        <div><b>100%</b><span>Lots shipped with certificate of analysis</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="caps">
+    <div class="wrap">
+      <h2>Your materials partner, not just a supplier</h2>
+      <div class="grid">
+        <div>
+<div class="ph wide"><img src="assets/img/cap-distribution.webp" alt="Truck loading at the dock" width="1200" height="675" loading="lazy" decoding="async"></div>
+          <h3>Regional distribution</h3>
+          <p class="muted">Our own fleet and contracted carriers cover the Southeast from Jacksonville, with containerised shipments through JAXPORT for coastal, Caribbean and export customers.</p>
+        </div>
+        <div>
+<div class="ph wide"><img src="assets/img/cap-inventory.webp" alt="Racked stock down an aisle" width="1200" height="675" loading="lazy" decoding="async"></div>
+          <h3>Inventory holding</h3>
+          <p class="muted">We hold stock against your forecast and release on schedule, so your production runs on our warehouse space rather than yours.</p>
+        </div>
+        <div>
+<div class="ph wide"><img src="assets/img/cap-quality.webp" alt="Sample tested in the lab" width="1200" height="675" loading="lazy" decoding="async"></div>
+          <h3>Quality guaranteed</h3>
+          <p class="muted">Every lot is checked against specification and ships with a certificate of analysis, technical data sheet and safety data sheet. Traceable from producer to your door.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Product range</h2>
+        <p class="muted measure">From specialty polyurethane additives to bulk solvents and process chemicals, in drums, IBCs, bags and bulk. If you can't find it here, send us the specification.</p>
+      </div>
+      <div class="plist">
+        <article>
+<div class="ph"><img src="assets/img/prod-polyurethane.webp" alt="Foam sample with additive drums" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Polyurethane, polyurea and PIR additives</h3>
+          <p>Everything beyond the polyol and isocyanate: chain extenders, crosslinkers, amine and metal catalysts, silicone foam stabilizers, flame retardants, blowing agents and moisture scavengers for flexible, rigid, spray and CASE systems.</p>
+          <div class="ex"><span>1,4-Butanediol</span><span>DETDA</span><span>Amine catalysts</span><span>Stannous octoate</span><span>TCPP</span><span>HFO blowing agents</span></div>
+        </article>
+        <article>
+<div class="ph"><img src="assets/img/prod-industrial-chemicals.webp" alt="Bulk tank farm" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Industrial and process chemicals</h3>
+          <p>Acids, alkalis, salts and inorganics for manufacturing, metal finishing, pulp and paper, and general process use. Available in technical and food grade.</p>
+          <div class="ex"><span>Caustic soda</span><span>Sulphuric acid</span><span>Hydrochloric acid</span><span>Sodium hypochlorite</span><span>Citric acid</span><span>Soda ash</span></div>
+        </article>
+        <article>
+<div class="ph"><img src="assets/img/prod-solvents.webp" alt="Row of solvent drums" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Solvents and glycols</h3>
+          <p>Hydrocarbon, oxygenated and chlorinated solvents and glycols for coatings, cleaning, extraction and formulation.</p>
+          <div class="ex"><span>Acetone</span><span>IPA</span><span>MEK</span><span>Toluene</span><span>Xylene</span><span>MEG and PG</span><span>Mineral spirits</span></div>
+        </article>
+        <article>
+<div class="ph"><img src="assets/img/prod-coatings.webp" alt="Pigment and resin samples" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Coatings, adhesives and resin raw materials</h3>
+          <p>Resins, pigments, fillers and functional additives for paint, adhesive, sealant and composite manufacturers.</p>
+          <div class="ex"><span>Epoxy resins</span><span>Acrylic emulsions</span><span>Titanium dioxide</span><span>Calcium carbonate</span><span>Dispersants</span><span>Defoamers</span></div>
+        </article>
+        <article>
+<div class="ph"><img src="assets/img/prod-water-treatment.webp" alt="Water treatment plant" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Water treatment chemicals</h3>
+          <p>Coagulants, flocculants, biocides and scale and corrosion inhibitors for municipal, industrial and cooling-water systems.</p>
+          <div class="ex"><span>Aluminium sulphate</span><span>PAC</span><span>Polymers</span><span>Sodium bisulphite</span><span>Chlorine dioxide precursors</span></div>
+        </article>
+        <article>
+<div class="ph"><img src="assets/img/prod-industrial-products.webp" alt="Packaging, PPE, consumables" width="1000" height="750" loading="lazy" decoding="async"></div>
+          <h3>Lubricants, packaging and plant consumables</h3>
+          <p>The products that keep a plant running around the chemistry: lubricants and greases, absorbents, UN-rated drums and IBCs, filtration media and PPE.</p>
+          <div class="ex"><span>Industrial lubricants</span><span>Absorbents</span><span>UN drums and IBCs</span><span>Filter media</span><span>Chemical-resistant PPE</span></div>
+        </article>
+      </div>
+      <div class="more">
+        <p class="muted measure">Full product list, current stock and technical data sheets are available on request.</p>
+        <a class="btn btn-outline" href="mailto:info@kaldore.com?subject=Product%20list%20request">Request the full product list</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="industries" id="industries">
+    <div class="wrap row">
+      <div>
+        <h2>Industries we supply</h2>
+        <p class="muted" style="margin-top:20px">Most of our customers run continuous or batch production and need materials to arrive to spec, on time, with the paperwork done.</p>
+      </div>
+      <ul class="ilist">
+        <li>Polyurethane and foam manufacturing<small>Flexible, rigid, spray and moulded</small></li>
+        <li>Paint, coatings and adhesives<small>Architectural, industrial and marine</small></li>
+        <li>Water and wastewater treatment<small>Municipal utilities and industrial plants</small></li>
+        <li>Metal finishing and fabrication<small>Pickling, plating, cleaning</small></li>
+        <li>Construction materials<small>Insulation, sealants, admixtures</small></li>
+        <li>Food, beverage and agriculture<small>Sanitation, processing aids, fertiliser inputs</small></li>
+        <li>Marine and logistics<small>Port operations, shipyards, fleet maintenance</small></li>
+        <li>Pulp, paper and packaging<small>Bleaching, sizing, process chemicals</small></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="facility ink" id="facility">
+    <div class="wrap row">
+      <div class="pics">
+<div class="ph wide"><img src="assets/img/facility-exterior.webp" alt="Warehouse from outside" width="1400" height="788" loading="lazy" decoding="async"></div>
+<div class="ph"><img src="assets/img/facility-handling.webp" alt="Forklift moving an IBC" width="1000" height="750" loading="lazy" decoding="async"></div>
+<div class="ph"><img src="assets/img/facility-export.webp" alt="Container at the port" width="1000" height="750" loading="lazy" decoding="async"></div>
+      </div>
+      <div>
+        <h2>Stocked in Jacksonville, sourced worldwide</h2>
+        <p class="muted" style="margin-top:20px">Our warehouse sits minutes from the port and the I-95 and I-10 corridors. Hazmat-rated storage, segregated by class, with temperature-controlled space for sensitive additives.</p>
+        <ul>
+          <li>UN-approved drums, IBCs, bags and bulk tankers</li>
+          <li>DOT and IMDG compliant labelling and documentation</li>
+          <li>Repackaging and blending to customer specification</li>
+          <li>Call-off and consignment stock programmes</li>
+          <li>Direct import for full-container and bulk requirements</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap grid">
+      <div>
+<div class="ph wide"><img src="assets/img/about-team.webp" alt="Team at the facility" width="1400" height="788" loading="lazy" decoding="async"></div>
+        <h2 style="margin-top:32px">About Kaldore</h2>
+        <p class="muted" style="margin-top:20px">Kaldore is a chemicals and industrial products supplier based in Jacksonville, Florida. We connect global producers with manufacturers who need dependable supply, and we take responsibility for the part in between: sourcing, quality, storage, compliance and delivery.</p>
+        <p class="muted">The team comes from chemical distribution, polyurethane formulation and industrial logistics, so technical questions about grade, compatibility and substitution are answered by people who have handled the material.</p>
+      </div>
+      <dl class="facts">
+        <div><dt>Based in</dt><dd>Jacksonville, Florida, USA</dd></div>
+        <div><dt>Supplies</dt><dd>Industrial chemicals, polyurethane additives, solvents, coatings raw materials, water treatment chemicals, plant consumables</dd></div>
+        <div><dt>Packaging</dt><dd>Drums, IBCs, bags, bulk; repackaging on site</dd></div>
+        <div><dt>Coverage</dt><dd>Southeastern United States, Caribbean and Latin America</dd></div>
+        <div><dt>Sourcing</dt><dd>Audited producers in North America, Europe and Asia</dd></div>
+        <div><dt>Documentation</dt><dd>CoA, TDS and SDS with every lot</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap grid">
+      <div>
+        <h2>Talk to us</h2>
+        <p class="muted" style="margin-top:20px">Quotes, technical questions, product lists and supply programmes all come through one inbox.</p>
+        <a class="mail" href="mailto:info@kaldore.com">info@kaldore.com</a>
+        <p class="addr">Kaldore<br>Jacksonville, Florida, USA</p>
+      </div>
+      <div class="ask">
+        <strong>For the fastest quote, include:</strong>
+        <ul>
+          <li>Product name or function, and grade</li>
+          <li>Quantity and preferred packaging</li>
+          <li>Delivery location and required date</li>
+          <li>Whether you need a one-off delivery or a scheduled supply programme</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap row">
+    <span>© <span id="yr">2026</span> Kaldore. Jacksonville, Florida.</span>
+    <a href="mailto:info@kaldore.com">info@kaldore.com</a>
+  </div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
